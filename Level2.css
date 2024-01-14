@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+body {
+  font-family: 'Alkatra', sans-serif;
+  background-color: #CCFFFF;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ 
+.MainContainerLevel1 {
+  text-align: center;
+  padding: 100px;
+  background-color: #CCCCFF;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 102, 102, 0.1);
+}
+ 
+.center-texty {
+  color: #000066;
+}
+ 
+.center-textsy {
+  color: #cc0066;
+}
+ 
+.TheMazeBoard {
+  margin-top: 20px;
+}
+ 
+.MazeRow {
+  display: flex;
+}
+ 
+.MazeCellsLevel2 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 20px;
+}
+ 
+.CongratsMessage {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(218, 45, 211, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+
+.button-over,
+.ButtonContainers {
+  margin-top: 15px;
+}
+
+.ButtonContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Adjust this if you want to center the buttons horizontally */
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.Link2 {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Button
+{
+  text-decoration: none;
+  padding: 15px 30px; /* Increased padding for larger buttons */
+  background-color: #12127d;
+  color: snow;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2em; /* Adjusted font size for buttons */
+  transition: background-color 0.3s;
+  width: 9vw;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.Button:hover
+{
+  background-color: #e1e328;
+  color: black;
+}
+
+/* Laptop Styling */
+
+@media screen and (max-width: 1200px)
+{
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+  body
+  {
+    font-family: 'Alkatra', sans-serif;
+    background-color: #CCFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px; /* Slightly reduce font size */
+  }
+  
+  .MainContainerLevel1
+  {
+    text-align: center;
+    padding: 50px; /* Reduce padding for more content visibility */
+    background-color: #CCCCFF;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 102, 102, 0.1);
+  }
+  
+  .center-texty
+  {
+    color: #000066;
+  }
+  
+  .center-textsy
+  {
+    color: #cc0066;
+  }
+  
+  .TheMazeBoard
+  {
+    margin-top: 20px;
+  }
+  
+  .MazeRow
+  {
+    display: flex;
+  }
+  
+  .MazeCellsLevel2
+  {
+    width: 25px; /* Adjust maze cell size for better fit */
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons
+  {
+    font-size: 18px; /* Slightly reduce icon size */
+  }
+  
+  .CongratsMessage
+  {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(218, 45, 211, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .button-over,
+  .ButtonContainers
+  {
+    margin-top: 15px;
+  }
+
+  .ButtonContainers
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Adjust this if you want to center the buttons horizontally */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  .Link2
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .Button
+  {
+    text-decoration: none;
+    padding: 12px 25px; /* Adjust padding for smaller buttons */
+    background-color: #12127d;
+    color: snow;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em; /* Slightly reduce button font size */
+    transition: background-color 0.3s;
+    width: 12vw; /* Increase width to accommodate longer text */
+    margin: 1vh;
+    cursor: pointer;
+  }
+
+  .Button:hover
+  {
+    background-color: #e1e328;
+    color: black;
+  }
+}
+
+/* Tablet Styling */
+
+@media screen and (max-width: 768px)
+{
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+  body {
+    font-family: 'Alkatra', sans-serif;
+    background-color: #CCFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+  }
+  
+  .MainContainerLevel1 {
+    text-align: center;
+    padding: 30px;
+    background-color: #CCCCFF;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 102, 102, 0.1);
+  }
+  
+  .center-texty {
+    color: #000066;
+  }
+  
+  .center-textsy {
+    color: #cc0066;
+  }
+  
+  .TheMazeBoard {
+    margin-top: 20px;
+  }
+  
+  .MazeRow {
+    display: flex;
+  }
+  
+  .MazeCellsLevel2 {
+    width: 20px; /* Make maze cells smaller */
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons {
+    font-size: 16px;
+  }
+  
+  .CongratsMessage {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(218, 45, 211, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .button-over,
+  .ButtonContainers {
+    margin-top: 15px;
+  }
+
+  .ButtonContainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Adjust this if you want to center the buttons horizontally */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  .Link2 {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .Button
+  {
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding for smaller buttons */
+    background-color: #12127d;
+    color: snow;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em; /* Reduce button font size */
+    transition: background-color 0.3s;
+    width: 15vw; /* Increase width for longer text */
+    margin: 1vh;
+    cursor: pointer;
+  }
+
+  .Button:hover
+  {
+    background-color: #e1e328;
+    color: black;
+  }
+}

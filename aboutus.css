@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Alkatra', sans-serif;
+  margin: 0;
+}
+
+.MainContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(218, 45, 211, 0.8);
+  border-radius: 10px;
+  padding: 2vh;
+  color: snow;
+}
+
+.MainContainer1 h2
+{
+  margin: -3vh 0;
+  
+}
+
+.Developers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.DevsContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.DevPhoto img {
+  border-radius: 50%;
+  width: 8vw; /* Adjust the size as needed */
+}
+
+.DevDetails {
+  max-width: 400px;
+  text-align: left;
+  margin-left: 20px; /* Adjust the spacing between image and details */
+}

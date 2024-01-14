@@ -1,0 +1,48 @@
+.MainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed to center vertically */
+  font-family: 'Alkatra', sans-serif;
+}
+
+.Instructions {
+  max-width: 600px; /* Adjust as needed */
+  color: snow;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(218, 45, 211, 0.8); /* Slightly transparent background */
+}
+.Instructions h2
+{
+  text-align: center;
+  font-size: 4vh;
+  margin: -1vh 0;
+}
+
+.Navigation ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vh;
+}
+
+.Navigation
+{
+  margin: 3vh 0;
+}
+
+.Button
+{
+  text-decoration: none;
+  padding: 15px 30px; /* Increased padding for larger buttons */
+  background-color: #12127d;
+  color: snow;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2em; /* Adjusted font size for buttons */
+  transition: background-color 0.3s;
+}
